@@ -1,0 +1,212 @@
+body {
+    background-color: #cceccc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #022c2c;
+}
+
+.container {
+    width: 1200px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    transition: 1s;
+}
+
+.container:hover .kotak {
+    transform: rotate(45deg);
+    margin-left: 1100px;
+    background-color: teal;
+}
+
+#gambar {
+    font-style: italic;
+    font-size: small;
+    color: rgba(84, 95, 95, 0.507);
+    text-align: left;
+}
+
+nav {
+    padding-top: 0%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+nav ul {
+    /**warna latar dari deretan menu**/
+    background-color: #022c2c;
+    padding: 0 20px;
+    list-style: none;
+    width: 100%;
+}
+
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    /**warna pada setiap home apabila dipusatkan**/
+    background-color: rgb(90, 158, 160);
+}
+
+nav ul li:hover a {
+    color: #fff;
+    /**warna tulisan apabila di pusatkan**/
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: rgb(252, 255, 95);
+    /**warna tulisan di menu**/
+    text-decoration: none;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    text-align: center;
+    /*******dataPribadi*******/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img.kiri {
+    border-radius: 50px;
+}
+
+.header {
+    /**judul di halaman*/
+    padding: 7px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.menu {
+    /**gambar**/
+    float: left;
+    padding: 70px;
+    margin-left: 200px;
+    margin-top: 2px;
+}
+
+.menu img {
+    border-radius: 50%;
+}
+
+.main {
+    /** untuk isi dataDiri**/
+    width: 600px;
+    float: left;
+    padding: 7px;
+    margin-top: 2px;
+    margin-left: 70px;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.isi {
+    /**isi riwayat**/
+    width: 800px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 500px;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.title {
+    /**judul keterampilan**/
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 2px;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+
+/**Riwayat pekerjaan****/
+
+h1.riwayat {
+    padding: 7px;
+    text-align: center;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h2.ket {
+    padding: 4px;
+    text-align: center;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #022c2c;
+    border-style: dotted;
+    width: 15%;
+    margin-left: 600px;
+}
+
+
+/**Pelatihan**/
+
+h1.pela {
+    padding: 7px;
+    text-align: center;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.tihan {
+    /**judul keterampilan**/
+    padding: 7px;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 1px;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+
+/**Keterampilan**/
+
+h1.title {
+    padding: 7px;
+    text-align: center;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 70px;
+}
+
+.judul {
+    /**judul keterampilan**/
+    width: 500px;
+    float: left;
+    padding: 1px;
+    margin-top: 2px;
+    margin-left: 580px;
+    font-family: "Gabriola", Helvetica, sans-serif;
+    font-size: 25px;
+}
